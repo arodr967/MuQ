@@ -1,0 +1,9 @@
+html { 
+  background-image:url("images/Wood_Wall_Background.jpg");
+   no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+}
