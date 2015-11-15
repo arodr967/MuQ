@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Icon in the tab bar -->
+	<link rel="MuQ Icon" sizes="110x110" href="images/DJ_Table_Cartoon.png" />
+	
+	<title>
+		Welcome to MuQ!
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="MuQ.css" media="screen"/>
+
+	<script type="text/javascript" src="MuQ.js"></script>
+</head>
+<!-- The body of the html document -->
+<body>
+
+	<div style="width=100%; height:100%; text-align:center">
+
+		<img src="images/DJ_Table_Cartoon.png" style="float:middle" width="350px" height="350px">
+		<!-- Add the name and artist -->
+		<form id="formFavSongTitle" name="formFavSongTitle">
+			<strong><font size="5">Song: </font></strong>
+			<input name="favSongTitle" size="50" id="favSongTitle"> 
+		</form>
+
+		<!-- Add your favorite song link -->
+		<form id="formFavSongLink" name="formFavSongLink">
+			<strong><font size="5">Youtube link:</font></strong>
+			<input name="favSongLink" size="50" id="favSongLink">
+
+		</form>
+
+		<p></p>
+
+		<!-- This is the button to submit the song-->
+		<button type="button" style="background:green; border:none" onclick="addSong()">
+			<font size="5">Add Song!</font>
+		</button>
+
+		<p></p>
+
+		<iframe id="player" name="player" width="420" height="315" src="" frameborder="1" allowfullscreen style="background:black";></iframe>
+
+		<p></p>
+
+		<table bgcolor=#FFFFFF align="center" id="table" style="width:600px";"height:100%"; border="2">
+
+			<tr>
+				<th colspan="2">Playlist</th>
+			</tr>
+			<tr>
+				<td>Order</td>
+				<td>Music video</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+	<p></p>
+
+</body>
+
+</html>
